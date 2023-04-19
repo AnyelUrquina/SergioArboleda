@@ -1,0 +1,66 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18 abr 2023, 12:51:58
+    Author     : ASUS
+*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@500&family=Open+Sans:wght@500&display=swap');
+
+* {
+    margin: 1px;
+
+}
+
+body {
+
+    background-image: url(../img/nissan.jpg);
+    background-size: cover;
+    
+}
+
+
+#botones {
+    background: rgb(146, 156, 167, 1.0 );
+    position: absolute;
+    padding: 25px 30px;
+    
+    top: 40%;
+    left: 45%;
+    border-radius: 20px;
+
+}
+
+#botones a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #27282D;
+    color: #e2e2e2;
+    border-radius: 15%;
+}
+
+#carro{
+    top:10%;
+    left:45%;
+    padding-top: 20%;
+}
+
+#cliente{
+    top:40%;
+    left:45%;
+    padding-top: 45%;
+}
+
+#mensaje{
+    top:70%;
+    left:45%;
+    padding-top: 60%;
+}
+
+#botones a:hover{
+    background-color: silver;
+    color: #27282D;
+}
+
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Menssage</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body onload="TraerDatos()">
+    <center><h2>Mensaje</h2></center>
+    <br />
+    <center>
+      <div>
+        <table id="Data"></table>
+      </div>
+    </center>
+    <br />
+
+    <div id="dato">
+        <h3>Crear Registro</h3> <br>
+      <label>id:</label><br />
+      <input
+        id="id"
+        name="id"
+        type="number"
+        placeholder="ingrese el id"
+        required
+      /><br />
+      <label>Mensaje:</label><br />
+      <input
+        id="mensaje"
+        name="mensaje"
+        type="text"
+        placeholder="ingrese el mensaje"
+        required
+      /><br />
+      <br />
+      <button id="btnCrearRegistro" value="crear">Nuevo registro</button>
+    </div>
+
+    <div id="Borrar">
+    
+    <h3>Eliminar</h3>
+    <br />
+    <label>Id:</label>
+    <input
+      id="idE"
+      name="idE"
+      type="number"
+      placeholder="ingrese el id"
+      required
+    /><br />
+    <br />
+    <button id="btnEliminar" value="eliminar">Eliminar registro</button>
+     </div>
+
+    <div id="Buscar">
+    
+      <h3>Buscar</h3>
+      <br />
+      <label>Id:</label>
+      <input
+        id="idB"
+        name="idB"
+        type="number"
+        placeholder="ingrese el id"
+        required
+      /><br />
+      <br />
+      <button id="btnBuscar" value="Buscar">Buscar</button>
+      <br>
+      <div id="from"></div>
+    </div>
+    
+
+    <script src="menssage.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  </body>
+</html>

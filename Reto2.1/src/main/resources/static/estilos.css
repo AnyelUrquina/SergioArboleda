@@ -1,0 +1,95 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18 abr 2023, 12:57:00
+    Author     : ASUS
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@500&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&family=Open+Sans:wght@500&display=swap');
+* {
+    margin: 1px;
+
+}
+
+body{
+    background-color: #F0F1FA ;
+    margin: 0%;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
+
+#Data th{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #8A9CF9;
+    color: #eee;
+}
+#Data{
+    border: 1px, solid;
+}
+
+#Data td{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    
+    background-color: #DFE0E8 ;
+    color:gray;
+    
+}
+
+#dato{
+    background: rgb(146, 156, 167, 1.0 );
+    position: absolute;
+    padding: 25px 30px;
+    border-radius: 20px;
+
+}
+#Borrar{
+    background: rgb(146, 156, 167, 1.0 );
+    position: absolute;
+    padding: 25px 30px;
+    border-radius: 20px;
+    left: 30%;
+}
+
+#Buscar{
+    background: rgb(146, 156, 167, 1.0 );
+    position: absolute;
+    padding: 25px 30px;
+    border-radius: 20px;
+    left: 60%;
+}
+
+#from{
+    background: rgb(146, 156, 167, 1.0 );
+    position: absolute;
+    padding: 25px 30px;
+    border-radius: 20px;
+    left: 60%;
+    top: 80%;
+}
+
+input{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: gray;
+}
+
+button{
+    border-radius: 20%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #8A9CF9;
+    color: #eee;   
+    border-block-color: none;
+}
+button:hover{
+    background-color: silver;
+    color: #27282D;
+}
